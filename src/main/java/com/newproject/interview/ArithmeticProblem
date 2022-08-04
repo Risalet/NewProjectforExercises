@@ -1,0 +1,23 @@
+1,
+
+++, --
+i++ ++i; i-- --i;
+
+++i: Pre-increment
+
+        int a=10;
+        int b=5+(++a);
+        int c=++a;
+        System.out.println(a);  12
+        System.out.println(b);  16
+        System.out.println(c);  12
+
+        System.out.println();
+
+        int a1=10;
+        int b1=5+(a1++);
+        int c1=a1++;
+
+        System.out.println(a1);  12
+        System.out.println(b1);  15
+        System.out.println(c1);  11
