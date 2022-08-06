@@ -1,7 +1,7 @@
 1, ArithmeticException: / by zero　例えば；２割０の時　
 
- 2, UnknownFormatConversionException / conversion= ''
+2, UnknownFormatConversionException / conversion= ''
      not System.out.println(String.format(result=b%));
      is not System.out.println(String.format(result=%b));
 
- 3,
+3,

@@ -1,0 +1,30 @@
+ //Widening Casting --convert small to large
+        int i1 =100;
+        long l1=i1;
+        System.out.println(String.format("i1=%d l1=%d",i1,l1));
+
+        int i2=200;
+        double d1=i2;
+        System.out.printf("i2=%d d1=%.1f\n",i2,d1);
+
+ //Narrowing casting--convert large to small
+        long l2=878678675l;
+        int i5=(int)l2;
+        System.out.println(String.format("i5=%d ",i5));
+
+        double d2 =12.456;
+        int i6=(int)d2;
+        System.out.println(String.format("i6=%d", i6));
+
+ // Convert String to primitive data
+       String age="20";
+       System.out.println(age+20);
+       long l1=Long.parseLong(age);
+       int i1 =Integer.parseInt(age);
+       System.out.println(String.format("%d + %d = %d",l1+i1,l1,i1));
+
+  //Primitive data type (number) to String
+        int i6=1234;
+        String s5=String.valueOf(i6);
+        System.out.println(s5);
+
