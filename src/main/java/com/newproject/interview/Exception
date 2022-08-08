@@ -6,3 +6,6 @@
 
 3, MissingFormatArgumentException: / Format specifier '%s'
       s  - 対応する引数を持たない書式指示子
+
+4, InputMismatchException
+     scanner input invalid number or string
