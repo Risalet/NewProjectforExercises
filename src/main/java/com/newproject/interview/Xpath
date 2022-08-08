@@ -1,0 +1,113 @@
+https://youtu.be/NhG__BL8zFo
+
+https://theautomationzone.blogspot.com/2020/07/xpath-practice.html
+https://theautomationzone.blogspot.com/2020/07/sample-webtable-3.html
+
+Xpath
+1: Very basic Xpath seyntex
+   //*[@Attribute='value']
+
+  //*[@id='id']
+  //*[@name='name']
+  //*[@value='value']
+
+2:
+  //tag[condition1]
+  //tag[condition1' and condition2]
+  //tag[condition1 or condition2]
+  //tag[(condition1 or condition2) and condition]
+  //tag[condition1]/..
+  //tag[condition1]/tag[condition1]
+
+  <p id="id1>unique id</p>=="
+  ----//p[text()='unique id' and @id='id1'] or//p[text()='unique id']
+  ----//p[(@name='a' and @id='b') or @name='a']
+
+
+   <a href ="https://www.google.com/"> ----//span[@id='link']/.. or ----//a[span[@id='link'] ]
+      <span id ="link">google link</span>--------//span[@id='link']
+
+   <div id ="divA"> ----//div[@id='divA']
+    <input type ="text"> ----//div[@id='divA']/input or ----//div[@id='divA']/*
+
+   <div id ="divC">----//div[@id='divC']
+     <span> ----//div[@id='divC']/span
+      <input type ="text"> ----//div[@id='divC']/span/input or ----//div[@id='divC']//input
+
+3:
+   //tag[condition] [index]
+   (//tag[condition]) [index]
+
+4:
+   //p[contains (text),'paragraph of never changed' ]
+
+5: table
+   //table[@Attribute='value']//tr[index] or ----//table[@Attribute='value']//tr[position=index]
+   //table[@Attribute='value']//tr/td
+
+6; normalize-space
+   //*[normalize-space(text())='expected']
+   //*[normalize-space(@attribute)='expected']
+
+   <p name="aa" id="randomText">Tommy</p>
+   ----//p[text()='Tommy']
+
+   <p name="aa" id="randomText"> Tommy</p>
+   ----//p[normalize-space(text())='Tommy']
+
+   <p name=" aa " id="randomText"> Tommy</p>
+   ----//p[normalize-space(@name)='aa']
+
+5: translate function
+   //*[translate(text(),'abc..z','ABC..z')='expected']
+   //*[normalize-space(translate(text),'ABC..Z','acb..z'))]
+
+    translate (String,str1,str2)
+    translate("abcd","b","x")= bxcd
+    translate("abcd","bd","xy")= bxcy
+    translate("ANY_TAXT","ABCD....Z","abcd...z   ")= any_text
+
+   <p name=" aa " id="randomText">Tommy</p>
+   ----//p[translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='tommy']
+
+   <p name=" aa " id="randomText"> Tommy</p>
+   ----//p[normalize-space(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'))='tommy']
+
+6: String length
+   //p[string-length() 30]
+
+7: Around function
+   //teg[round(text())='text']
+
+   <td class="tbl_greentxt">53.80</td>
+   ----//td[text()='53.80'] around function----//td[round (text())='54']
+
+8: floor function
+    used get the lower integer value --floor('8.90')--output='8'
+   //*[floor(text())='integer']
+
+   <td class="tbl_greentxt">53.80</td>
+     ----//td[floor (text())='53']
+
+9: not function
+   //teg[condition1 and not(condition2)]
+
+   <input name ="gender" id="gender-1" value="female" type="radio">  --is female radio batten
+   //input[@type='radio' and (@id='gender-1')]
+
+   <input name ="gender" id="gender-0" value="female" type="radio">  --is male radio batten
+   //input[@type='radio' and not (@id='gender-1')]
+
+10 Substring function
+
+    Larry has logged in successfully : 10am
+   //p[substring-after(text(),':')='Larry has logged in successfully']
+    //p[substring-before(text(),':')='10am']
+
+
+
+
+
+
+
+
