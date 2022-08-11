@@ -1,0 +1,16 @@
+How to compile maven package:
+
+1:
+   <plugin>
+     <manifest>
+       <!-- Jar file entry point -->
+       <mainClass>com.newproject.Inter you package and class name</mainClass>
+     </manifest>
+   </plugin>
+
+2:  reload
+3:  click Terminal button
+4:  insert on 'mvn package' in the terminal windows
+5:  insert on 'mvn package assembly:single'
+
+
