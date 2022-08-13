@@ -4,7 +4,7 @@ How to compile maven package:
    <plugin>
      <manifest>
        <!-- Jar file entry point -->
-       <mainClass>com.newproject.Inter you package and class name</mainClass>
+       <mainClass>com.newProject.Inter you package and class name</mainClass>
      </manifest>
    </plugin>
 
@@ -12,5 +12,12 @@ How to compile maven package:
 3:  click Terminal button
 4:  insert on 'mvn package' in the terminal windows
 5:  insert on 'mvn package assembly:single'
+6:  open the 'cmd' and enter the 'dir'
+7:  find the IdeaProjects place
+8:  use 'dir' find NewProjectExercise
+9:  insert 'cd NewProjectExercise '
+10: insert 'cd target'
+11: insert 'java -jar NewProjectForExercise-1.0-SNAPSHOT-jar-with-dependencies.jar' click on 'enter'
+
 
 

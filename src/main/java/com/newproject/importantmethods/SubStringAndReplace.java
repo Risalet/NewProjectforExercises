@@ -32,11 +32,10 @@ public class SubStringAndReplace {
          String sentence = "約205,000,89768 件 （0.54 秒）";
          String subString = ",";
          String foundWord = findWord(sentence,subString);
-         foundWord =foundWord.replace("約","");
-         foundWord=foundWord.replace(",","");
-         long researchNumber =Long.parseLong(foundWord);
-         System.out.println(researchNumber);
-         if (researchNumber>1){
+         foundWord =foundWord.replace("約","").replace(",","");
+         long searchNumber =Long.parseLong(foundWord);
+         System.out.println(searchNumber);
+         if (searchNumber>1){
              System.out.println("This test is passed");
          }else
              System.out.println("This test not passed");
