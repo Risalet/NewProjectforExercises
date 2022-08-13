@@ -13,7 +13,6 @@ public class StringDemo2 {
         System.out.println(school.toUpperCase());
         System.out.println(school.charAt(0));
         System.out.println(school.length());
-        System.out.println(school.indent(1));
         System.out.println(course.toCharArray());
         System.out.println(course.substring(10));
         System.out.println(course.indexOf("a"));
@@ -32,6 +31,7 @@ public class StringDemo2 {
         System.out.println(status.indexOf("T"));
         status =status.substring(0);
         System.out.println(status);
+
 
         //subString
         String java="Format and Some important functions about string";
