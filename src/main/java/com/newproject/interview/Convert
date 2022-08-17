@@ -1,4 +1,4 @@
- //Widening Casting --convert small to large
+ //Widening Casting --convert "small to large"
         int i1 =100;
         long l1=i1;
         System.out.println(String.format("i1=%d l1=%d",i1,l1));
@@ -7,7 +7,7 @@
         double d1=i2;
         System.out.printf("i2=%d d1=%.1f\n",i2,d1);
 
- //Narrowing casting--convert large to small
+ //Narrowing casting--convert "large to small"
         long l2=878678675l;
         int i5=(int)l2;
         System.out.println(String.format("i5=%d ",i5));

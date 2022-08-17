@@ -21,6 +21,5 @@ public class DoWhileLoop {
             System.out.println("Executing do while block");
             num2--;
         }while(num2>100);
-
     }
 }

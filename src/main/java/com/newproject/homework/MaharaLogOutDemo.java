@@ -23,10 +23,5 @@ public class MaharaLogOutDemo {
             System.out.println("This test is passed");
         }else
             System.out.println("This test is failed");
-
-
-
-
-
     }
 }

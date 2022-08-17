@@ -27,8 +27,5 @@ public class ArithmeticOperatorsDemo1 {
 
         x%=3;//x/3=kalduk;
         System.out.println(x);
-
-
-
     }
 }

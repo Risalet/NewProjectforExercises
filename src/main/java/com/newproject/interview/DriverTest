@@ -16,7 +16,6 @@ EdgeDriver   ----Edge browser
 
  When Test automation open browser :
       back,froward or refresh
-
       driver.navigate().to("https://google.com");
       driver.navigate().back();
       driver.navigate().forward();

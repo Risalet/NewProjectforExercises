@@ -21,7 +21,6 @@ public class WhileLoopDemi1 {
         }
         System.out.println("Negative number counts :"+negativeNumberCounts);
         System.out.println("PositiveN number counts :"+ positiveNumberCounts);
-
     }
 
 }

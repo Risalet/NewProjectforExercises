@@ -8,8 +8,5 @@ public class ArgumentDemo {
         System.out.printf("%d+%d+%d=%d\n",i1,i2,i3,i1+i2+i3);
 
         System.out.printf("My school and course Name: " +args[4] +" "+args[5]);
-
-
-
     }
 }

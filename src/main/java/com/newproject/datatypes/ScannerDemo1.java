@@ -9,6 +9,6 @@ public class ScannerDemo1 {
         String school= scanner.nextLine();
         System.out.println("Please inter you course");
         String course =scanner.nextLine();
-        System.out.println(String .format("My school name and course  is: %s %s ",school,course));
+        System.out.println(String .format("My school name and course is: %s %s ",school,course));
     }
 }

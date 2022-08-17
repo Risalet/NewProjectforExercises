@@ -16,6 +16,7 @@ public class GoogleMultipleSearch {
             Thread.sleep(2000);
             driver.findElement(By.id("hrefIncAdt")).click();
         }
+
         driver.close();//close current browser
         driver.quit();//all driver instance
     }

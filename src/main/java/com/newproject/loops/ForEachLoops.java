@@ -8,6 +8,7 @@ public class ForEachLoops {
 //        }
 //        System.out.println(sum);
 //
+
         //For Each
         for (String value :args){
             System.out.println(value);

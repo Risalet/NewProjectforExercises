@@ -24,8 +24,4 @@ public class LogicalOperators {
         System.out.println(result4);
 
     }
-
-
-
-
 }

@@ -22,9 +22,6 @@ public class GoogleSearch2 {
         int yCoordination=p1.y;
         System.out.println(xCoordination);
         System.out.println(yCoordination);
-
-
-
     }
 
 }

@@ -13,7 +13,4 @@ public class ReferenceValue {
         System.out.println("Value od u is: "+y);
 
     }
-
-
-
 }

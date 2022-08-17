@@ -10,7 +10,7 @@ https://theautomationzone.blogspot.com/2020/07/css-selector-practice.html
    .Class  - Find Element by its class
 
 
- Tag          - just the tag name
+ Tag         - just the tag name
 
  Tag#ID   - Tag having an ID
  Tag.Class  - Tag having a class

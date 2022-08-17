@@ -27,8 +27,5 @@ public class DataTypeConversion {
         double d2 =12.456;
         int i6=(int)d2;
         System.out.println(String.format("i6=%d", i6));
-
-
-
     }
 }

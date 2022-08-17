@@ -21,6 +21,7 @@ public class SwitchCase {
                 break;
             default:
                 System.out.println("THis is a number");
+
         }
 
     }

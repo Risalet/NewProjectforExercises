@@ -21,7 +21,4 @@ public class ForWhileLoops {
         }
         System.out.println(sum);
     }
-
-
-
 }

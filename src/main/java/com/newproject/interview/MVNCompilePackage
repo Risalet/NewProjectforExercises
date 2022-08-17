@@ -1,6 +1,7 @@
 How to compile maven package:
 
 1:
+
    <plugin>
      <manifest>
        <!-- Jar file entry point -->

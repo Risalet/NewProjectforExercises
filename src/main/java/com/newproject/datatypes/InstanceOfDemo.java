@@ -22,9 +22,5 @@ public class InstanceOfDemo {
 
         Number n1 =234.567;
         System.out.println(n1 instanceof Double);
-
-
-
-
     }
 }

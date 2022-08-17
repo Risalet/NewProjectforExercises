@@ -17,7 +17,5 @@ public class ConditionDemo1 {
         }else{
             System.out.println("OOPS!!!Wrong calculation, Please try again");
         }
-
-
     }
 }

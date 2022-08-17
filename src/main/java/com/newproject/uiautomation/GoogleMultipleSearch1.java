@@ -24,7 +24,5 @@ public class GoogleMultipleSearch1 {
 
         driver.close();
         driver.quit();
-
-
     }
 }

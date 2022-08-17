@@ -30,10 +30,6 @@ public class GoogleSearch1 {
         driver.close();
         driver.quit();
     }
-
-
-
-
 }
 
 

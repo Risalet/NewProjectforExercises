@@ -15,5 +15,4 @@ public class ExtractDoubleFromString {
         String  search1= search.replace("（0.55 秒）",",").replaceAll("[\\s+約 件 ,]","");
         System.out.println(search1);
     }
-
 }

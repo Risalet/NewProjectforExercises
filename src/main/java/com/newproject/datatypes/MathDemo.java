@@ -36,5 +36,4 @@ public class MathDemo {
         int numbers = 1000000000 +(int)(random.nextDouble() * 999999999 );
         System.out.println(numbers);
     }
-
 }

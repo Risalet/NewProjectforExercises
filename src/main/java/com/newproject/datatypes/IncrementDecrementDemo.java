@@ -8,7 +8,6 @@ public class IncrementDecrementDemo {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
-
         System.out.println();
 
         int a1=10;
