@@ -13,7 +13,5 @@ public class StringDemo1 {
 
         System.out.println(s1==s2);
         System.out.println(major1==major2);
-
-
     }
 }

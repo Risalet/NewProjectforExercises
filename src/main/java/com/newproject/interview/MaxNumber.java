@@ -19,12 +19,4 @@ public class MaxNumber {
         else
             System.out.printf("%d is biggest number" ,number3);
     }
-
-
-
-
-
-
-
-
 }

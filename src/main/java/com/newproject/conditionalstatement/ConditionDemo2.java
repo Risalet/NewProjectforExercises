@@ -26,7 +26,6 @@ public class ConditionDemo2 {
         else
             System.out.println("Please enter the valid number.(score should be greater than zero");
     }
-
 }
 
 

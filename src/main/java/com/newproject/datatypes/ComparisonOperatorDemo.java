@@ -10,6 +10,5 @@ public class ComparisonOperatorDemo {
         System.out.println(i<=b);//true
         System.out.println(i>b);//false
         System.out.println(i<b);//true
-
     }
 }

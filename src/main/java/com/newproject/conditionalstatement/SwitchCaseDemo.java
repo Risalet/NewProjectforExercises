@@ -22,6 +22,7 @@ public class SwitchCaseDemo {
                     break;
                 default:
                     System.out.println("The number is greater than 1000");
+
             }
         }
         else

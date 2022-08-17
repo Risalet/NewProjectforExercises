@@ -2,7 +2,7 @@ package com.newproject.conditionalstatement;
 
 public class SwitchCaseDemo1 {
     public static void main(String[] args) {
-        //Spring Autumn Winter Summer
+        //Spring Autumn Winter Summer of year
         int month =10;
         switch (month){
             case 3:

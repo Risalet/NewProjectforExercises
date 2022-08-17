@@ -11,5 +11,6 @@ public class UseCharMatcherExtractDigitNumber {
         long DigitsNumber = Long.parseLong(CharMatcher.digit().retainFrom
                 (s.replace("（0.55 秒）", "")));
         System.out.println(DigitsNumber);
+
     }
 }

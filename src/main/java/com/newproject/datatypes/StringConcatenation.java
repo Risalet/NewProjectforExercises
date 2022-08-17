@@ -9,7 +9,7 @@ public class StringConcatenation{
         String z ="50";
         System.out.println(a+b);//220
         System.out.println(a+z);//2050
-        System.out.println(x+y);//Hijava
+        System.out.println(x+y);//Hi java
         System.out.println(a+b+x+z+x+y);//220Hi50HiJava
         System.out.println(x+y+a+b);//HiJava20200
         System.out.println(a+b+x+y+a+b);//220HiJava20200

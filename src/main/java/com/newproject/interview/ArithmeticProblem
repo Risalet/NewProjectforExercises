@@ -1,9 +1,9 @@
 1,
 
-++, --
-i++ ++i; i-- --i;
+ ++, --
+ i++ ++i; i-- --i;
 
-++i: Pre-increment
+ ++i: Pre-increment
 
         int a=10;
         int b=5+(++a);

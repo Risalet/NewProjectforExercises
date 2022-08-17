@@ -15,6 +15,7 @@ public class ArithmeticOperatorDemo {
         //reminder --kalduk
         System.out.println(5%3);//2
         System.out.println(9%8);//1
+        System.out.println(10%5);//0
 
         //increment decrement
         int i=1;

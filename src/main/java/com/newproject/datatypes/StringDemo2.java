@@ -60,9 +60,5 @@ public class StringDemo2 {
 
         //Char At
         System.out.println(s3.charAt(5));
-
-
     }
-
-
 }

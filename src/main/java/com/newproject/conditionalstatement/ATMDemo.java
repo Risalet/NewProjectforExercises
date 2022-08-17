@@ -28,7 +28,6 @@ public class ATMDemo {
             }
             else
                 System.out.println("Password is wrong, Please enter the valid password");
-
         }
         else
             System.out.println("Please enter the valid 6 digit numbers");

@@ -11,7 +11,7 @@ public class ScannerTaxCalculate {
         System.out.println("Please enter you marital status : Married or Single");
         String status = input.nextLine();
         if (status.equalsIgnoreCase(s1)) {
-            System.out.println("Please enter your annal income");
+            System.out.println("Please insert your annal income");
             String annalIncome = input.nextLine();
             if (StringUtils.isNumeric(annalIncome)) {
                 double AnnalIncome = Integer.parseInt(annalIncome);

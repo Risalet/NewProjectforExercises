@@ -36,5 +36,4 @@ public class Practice {
         }
         System.out.println("Value of number:" + number);
     }
-
 }

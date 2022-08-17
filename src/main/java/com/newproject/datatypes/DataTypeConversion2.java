@@ -34,17 +34,5 @@ public class DataTypeConversion2 {
 
         String s5=String.valueOf(i6);
         System.out.println(s5);
-        //////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
     }
 }

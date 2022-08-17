@@ -33,11 +33,5 @@ public class ForLoop2 {
             }
         }
         System.out.println("Total even number is :" +evenNumberCounts);
-
-
-
     }
-
-
-
 }
