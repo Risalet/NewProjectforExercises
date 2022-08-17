@@ -1,0 +1,6 @@
+         While Loop                                      Do While Loop
+     If the condition is false in a while loop,    If the condition is false in a do while loop,
+     The body of the loop never executes.          The body of the loop executes at least once.
+
+     The condition expression is at top            The condition expression is at the bottom of
+     of the while loop.                             the do while loop.

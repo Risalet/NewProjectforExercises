@@ -40,6 +40,7 @@ Xpath
 
 4:
    //p[contains (text),'paragraph of never changed' ]
+   //*[contains(text()," ")]
 
 5: table
    //table[@Attribute='value']//tr[index] or ----//table[@Attribute='value']//tr[position=index]
