@@ -1,0 +1,6 @@
+   Array                       List
+   Fix size                    Fixable size
+   Use length                  Use size
+   Use a[index] get element;   Use 'Get' function get element;
+   Use 'Arrays.toString' get   Use List name get all value;
+   all value;
