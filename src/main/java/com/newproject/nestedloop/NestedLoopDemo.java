@@ -16,7 +16,7 @@ public class NestedLoopDemo {
 //        }
 
 
-        for (int r = 0; r <= 5; r++) {
+        for (int r = 1; r <= 5; r++) {
             for (int c = 1; c <= r; c++) {
                 System.out.print("g ");
             }
@@ -28,6 +28,17 @@ public class NestedLoopDemo {
             }
             System.out.println();
         }
+
+        for(int r=1; r<=9;r++){
+            for (int c=1; c<=r ;c++){
+                System.out.print(String.format("%d * %d =%d\t",r,c,r*c));
+            }
+            System.out.println();
+        }
+
+
+
+
     }
 }
 

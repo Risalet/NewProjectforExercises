@@ -1,0 +1,42 @@
+DataType
+
+Primitive DataType
+Byte, Short, int ,long, float, double, char, boolean,
+
+Non Primitive DataType
+String literal, String object
+
+Primitive datatype conversion;
+Widening casting (automatically)--small to large;
+narrowing casting (manually)---large to small;
+
+Primitive and Non-Primitive conversion
+String (Numeric String )
+Integer.parseInt(Numeric String); NumberFormatException
+Double.parseDouble(Numeric String)
+Integer.valueOf(String)----returnType---Object;
+Convert primitive types to String: String.valueOf();
+
+Common method of string
+indexOff(), length(), replace(), charAt
+
+Java operators:
+Arithmetic operators: +, -, *, /, %, ++, --;
+Assignment operators: =, +=, x+=5; x=x+5;
+Comparison Operators: <, >, ==, <=, >=, !=;
+Logical Operators: &&, ||, !;
+Bitwise Operators: &, |;
+Console Input: argument,Scanner Object;
+
+Package Java Project as a jar file:mvn package;
+
+Condition statement:
+if
+if else
+Nested if
+switch case
+ternary ? :
+
+
+
+

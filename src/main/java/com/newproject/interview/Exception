@@ -12,3 +12,6 @@
 
 5:  InvalidArgumentException
      When Test automation driver is wrong
+
+6:  ArrayIndexOutOfBoundsException
+    array out of bounds Array length ;
