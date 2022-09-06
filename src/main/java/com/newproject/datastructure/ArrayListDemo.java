@@ -26,6 +26,9 @@ public class ArrayListDemo {
         }
         System.out.println(sum);
 
+        Object[] a= list1.toArray();
+        System.out.println(Arrays.toString(a));
+
 
     }
 }

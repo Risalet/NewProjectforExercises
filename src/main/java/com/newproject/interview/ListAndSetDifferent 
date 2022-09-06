@@ -1,0 +1,8 @@
+A List can contain the null and duplicate values.
+   The methods of the List are based on the index,
+   so all the operations like insert, delete, update, and search is based on the index.
+
+A Set:
+   It restricts us from entering the distinct value in it.
+   It stores the value in a sorted way, so it doesn't maintain the insertion order.
+   set can not get element;
