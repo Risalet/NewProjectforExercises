@@ -1,4 +1,4 @@
-package com.newproject.execrises;
+package com.newproject.exercises;
 
 public class Array {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class UseLoopExtractStringFromArray {
     public static void main(String[] args) {
-        String sentence = "約 205,000,00045 Java 件 （0.54 秒）";
+        String sentence = "約 205,000,00045 Java 件（0.54 秒）";
         String find = "Ja" ;
         ArrayList<String> findWord =new ArrayList<>();
         for (String eachString : sentence.split(" ")){

@@ -2,16 +2,16 @@ package com.newproject.datatypes;
 
 public class IncrementDecrementDemo {
     public static void main(String[] args) {
-        int a=10;
-        int b=5+(a++);
+        int a=30;
+        int b=50+(a++);
         int c=a++;
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
         System.out.println();
 
-        int a1=10;
-        int b1=5+(++a1);
+        int a1=30;
+        int b1=50+(++a1);
         int c1=++a1;
 
         System.out.println(a1);
@@ -31,6 +31,6 @@ public class IncrementDecrementDemo {
         System.out.println(m);
         System.out.println(n);
 
-    }
+     }
 }
 

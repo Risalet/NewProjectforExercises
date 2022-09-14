@@ -1,4 +1,4 @@
-package com.newproject.execrises;
+package com.newproject.exercises;
 
 public class Loop1 {
     public static void main(String[] args) {

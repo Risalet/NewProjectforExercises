@@ -1,6 +1,6 @@
-package com.newproject.execrises;
+package com.newproject.exercises;
 
-public class Array1 {
+public class Loop3 {
     public static void main(String[] args) {
         System.out.println("Numbers From 1 to 100 are : ");
         for (int i=1; i<=100; i++){
