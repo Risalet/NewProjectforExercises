@@ -1,0 +1,17 @@
+Map<Object, Object>
+
+Dictionary data type
+
+1. Key should be unique (no duplicate)
+
+2.Value can be the same for different keys
+
+State: Maryland City: Columbia
+
+State: Ohio     City: Columbia
+
+Key           Value
+
+3. Key can be null, it has value
+
+4. Map data structure does not keep the order

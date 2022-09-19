@@ -1,4 +1,4 @@
-package com.newproject.loops;
+package com.newproject.miniproject;
 
 import org.apache.commons.lang3.StringUtils;
 
