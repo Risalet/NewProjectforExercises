@@ -1,4 +1,4 @@
-package com.newproject.miniproject;
+package com.newproject.homework;
 
 import java.util.*;
 

@@ -43,6 +43,28 @@
             <version>1.06</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.arakelian/faker -->
+        <dependency>
+            <groupId>com.arakelian</groupId>
+            <artifactId>faker</artifactId>
+            <version>3.10.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.noear/fairy -->
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>fairy</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.11.1</version>
+        </dependency>
+
 
     </dependencies>
 

@@ -1,0 +1,3 @@
+When using interface, one class can implements multiple interfaces
+
+However, one child class can extend only one parent class

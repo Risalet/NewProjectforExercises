@@ -7,6 +7,12 @@ public class ArgumentDemo {
         int i3=Integer.parseInt(args[2]);
         System.out.printf("%d+%d+%d=%d\n",i1,i2,i3,i1+i2+i3);
 
-        System.out.printf("My school and course Name: " +args[4] +" "+args[5]);
+
+
+        String s="5";
+        String s1="5";
+        int i=20;
+        System.out.println(s+s1);
+        System.out.println(i+s);
     }
 }
