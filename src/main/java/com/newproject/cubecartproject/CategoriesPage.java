@@ -1,8 +1,9 @@
 package com.newproject.cubecartproject;
 
-import com.newproject.dropdownhandling.SelectClassUseRandom;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class CategoriesPage extends TestBase {
 
@@ -23,7 +24,8 @@ public class CategoriesPage extends TestBase {
 
         WebElement categoryName = driver.findElement(By.id("name"));
         waitForElementVisibility(categoryName);
-        categoryName.sendKeys("Go--head");
+        categoryName.sendKeys("GoGo--head"+System.currentTimeMillis());
+
 
         WebElement parentCategoryDropDown = driver.findElement(By.id("parent"));
         waitForElementVisibility(parentCategoryDropDown);
@@ -36,5 +38,15 @@ public class CategoriesPage extends TestBase {
     public void addCategory(){
         clickOnAddCategoryButton();
         fillOutCategoryDetails();
+    }
+
+    public void deleteSpecificCategory(){
+//        List<WebElement> categories=driver.findElements(By.xpath("//*[@class='reorder-list ui-sortable']/tbody/tr/td"));
+//        for (int i = 0; i < categories.size(); i++) {
+//            String value = categories.get(i).getText();
+//            System.out.println(value);
+//        }
+
+
     }
 }

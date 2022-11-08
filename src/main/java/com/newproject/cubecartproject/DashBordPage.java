@@ -22,9 +22,11 @@ public class DashBordPage extends TestBase {
         WebElement categoriesLink = driver.findElement(By.id("nav_categories"));
         waitForElementVisibility(categoriesLink);
         categoriesLink.click();
+    }
 
-
-
-
+    public void newslettersLink(){
+        WebElement newslettersLink =driver.findElement(By.linkText("Newsletters"));
+        waitForElementVisibility(newslettersLink);
+        newslettersLink.click();
     }
 }

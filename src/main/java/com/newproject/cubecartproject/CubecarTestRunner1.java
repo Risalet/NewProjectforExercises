@@ -1,19 +1,18 @@
 package com.newproject.cubecartproject;
 
-public class CubecarTestRunner1 extends TestBase{
+public class CubecarTestRunner1 extends TestBase {
     public static void main(String[] args) {
         browserSetUp();
-        LoginUser loginUser=new LoginUser("testautomationprod1","automation123!");
-        LoginPage loginPage=new LoginPage();
+        LoginUser loginUser = new LoginUser("testautomationprod1", "automation123!");
+        LoginPage loginPage = new LoginPage();
         loginPage.login(loginUser);
-        DashBordPage dashBordPage=new DashBordPage();
+        DashBordPage dashBordPage = new DashBordPage();
         dashBordPage.clickOnCategoriesLink();
-        CategoriesPage categoriesPage=new CategoriesPage();
+        CategoriesPage categoriesPage = new CategoriesPage();
         categoriesPage.addCategory();
-
-
-
-
-
+        dashBordPage.newslettersLink();
+        NewslettersPage newslettersPage=new NewslettersPage();
+        newslettersPage.createNewsletter();
+        closeBrowser();
     }
 }

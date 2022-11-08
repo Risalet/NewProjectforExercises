@@ -81,7 +81,7 @@ public class TestBase {
         List<WebElement> options = s.getOptions();
         for (int i = 0; i < options.size(); i++) {
             int list = rand.nextInt(options.size());
-            System.out.println(list);
+//            System.out.println(list);
             options.get(list).click();
         }
     }
