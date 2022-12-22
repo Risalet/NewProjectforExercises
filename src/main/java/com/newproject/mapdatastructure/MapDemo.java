@@ -15,7 +15,7 @@ public class MapDemo {
         System.out.println(website.get("Youtube"));
         Set<String> sites=website.keySet();
         for (String site: sites){
-            System.out.println(String.format("Site %s  Url %s",site,website.get(site)));
+            System.out.printf("Site %s  Url %s%n",site,website.get(site));
         }
         website.replace("CNN","https://www.cnn.com","https://cnn.com");
         System.out.println(website.get("CNN"));

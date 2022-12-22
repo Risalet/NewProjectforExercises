@@ -22,7 +22,7 @@ public class MapDemoUIAutomation {
         Set<String> sites=website.keySet();
         for (String site: sites){
             System.out.println(site);
-            System.out.println(String.format("Site under test %s",website.get(site)));
+            System.out.printf("Site under test %s%n",website.get(site));
             driver.get(website.get(site));
             String siteTitle=driver.getTitle();
             if (siteTitle.contains(site)){

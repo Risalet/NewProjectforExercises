@@ -1,0 +1,20 @@
+{
+  "Users":
+  [
+  {
+    "userName": "testautomation",
+    "password": "automation123!",
+    "user-Type": "Adimn"
+  },
+  {
+    "userName": "testautomation1",
+    "password": "automation123!",
+    "user-Type": "Adimn"
+  },
+  {
+    "userName": "testautomation2",
+    "password": "automation123!",
+    "user-Type": "Adimn"
+  }
+]
+}

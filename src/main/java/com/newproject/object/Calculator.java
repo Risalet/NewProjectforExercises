@@ -11,7 +11,7 @@ public class Calculator {
 
     public int addTwoNumbers(int i1, int i2) {
         int sum = i1 + i2;
-        System.out.println(String.format("%d + %d =%d \n", i1, i2, sum));
+        System.out.printf("%d + %d =%d \n%n", i1, i2, sum);
         return sum;
     }
 
@@ -19,7 +19,7 @@ public class Calculator {
     public long addTwoNumbers(String s1, String s2) {
         if (StringUtils.isNumeric(s1) && StringUtils.isNumeric(s2)){
             long sum=Long.parseLong(s1)+Long.parseLong(s2);
-            System.out.println(String.format("%d + %d = %d \n",s1,s2,sum));
+            System.out.printf("%d + %d = %d \n%n",s1,s2,sum);
             return sum;
         }else{
             System.out.println("Please provide numeric String ");
@@ -38,7 +38,7 @@ public class Calculator {
 
     public long subtractTwoNumber(long l1,long l2){
         long surplus=l1-l2;
-        System.out.println(String.format("%d -  %d = %d",l1,l2,surplus));
+        System.out.printf("%d -  %d = %d%n",l1,l2,surplus);
         return surplus;
     }
 
@@ -48,14 +48,14 @@ public class Calculator {
             return 0;
         }else{
             double result=l1/l2;
-            System.out.println(String.format("%.2f / %.2f =%.2f \n", l1, l2, result));
+            System.out.printf("%.2f / %.2f =%.2f \n%n", l1, l2, result);
             return result;
         }
     }
 
     public long multiplyTwoNumber(long l1,long l2){
         long z=l1*l2;
-        System.out.println(String.format("%d * %d = %d",l1,l2,z));
+        System.out.printf("%d * %d = %d%n",l1,l2,z);
         return z;
 
 

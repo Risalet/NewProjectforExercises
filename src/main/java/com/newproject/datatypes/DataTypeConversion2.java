@@ -6,7 +6,7 @@ public class DataTypeConversion2 {
         System.out.println(age+20);
         long l1=Long.parseLong(age);
         int i1 =Integer.parseInt(age);
-        System.out.println(String.format("%d + %d = %d",l1+i1,l1,i1));
+        System.out.printf("%d + %d = %d%n",l1+i1,l1,i1);
 
         String s1="200ABC";
         String s2="100.000,00";

@@ -3,7 +3,7 @@ package com.newproject.multithreadingdemo;
 import java.util.Date;
 
 public class MultiPrintingDemo implements Runnable{
-    private String message;
+    private final String message;
 
     public MultiPrintingDemo(String message) {
         this.message = message;

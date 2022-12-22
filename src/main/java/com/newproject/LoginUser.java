@@ -1,4 +1,4 @@
-package com.newproject.cubecartproject;
+package com.newproject;
 
 public class LoginUser {
     private String userName;

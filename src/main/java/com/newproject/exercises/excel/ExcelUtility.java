@@ -1,14 +1,13 @@
-package com.newproject.javafile.XLFile;
+package com.newproject.exercises.excel;
 
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ExcelUtility {
     //write a method to read data from Excel cell;
@@ -46,12 +45,55 @@ public class ExcelUtility {
         return cellValue;
     }
 
+    public static List<String> readMultipleCellValue( ) {
+        FileInputStream fileInputStream = null;
+        try {
+            fileInputStream = new FileInputStream("Test-Data/multipleTestData.xlsx");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        XSSFWorkbook workbook = null;
+        try {
+            workbook = new XSSFWorkbook(fileInputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        List<String> country= new ArrayList<>();
+        XSSFSheet sheet = workbook.getSheetAt(0);
+        int rowCount = sheet.getLastRowNum();
+        for (int r = 0; r <= rowCount; r++) {
+            XSSFRow rows = sheet.getRow(r);
+            if (rows == null) {
+                System.out.println("Empty Row");
+            } else {
+                XSSFCell CountryCell = rows.getCell(0);
+                XSSFCell CapitalCell = rows.getCell(1);
+                XSSFCell PopulationCell = rows.getCell(2);
+                country.add(CountryCell.getStringCellValue());
+                country.add(CapitalCell.getStringCellValue());
+                country.add(PopulationCell.getStringCellValue());
+            }
+        }
+        return country;
+
+    }
+
+
+
+
+
     public static void main(String[] args) {
         ExcelUtility excelUtility=new ExcelUtility();
-        String username=excelUtility.readFromExcel("Test-Data/loginUser.xlsx","login-info",1,0);
-        String password=excelUtility.readFromExcel("Test-Data/loginUser.xlsx","login-info",2,1);
+        String username= readFromExcel("Test-Data/loginUser.xlsx","login-info",3,0);
+        String password= readFromExcel("Test-Data/loginUser.xlsx","login-info",3,1);
         System.out.println(username);
         System.out.println(password);
+        System.out.println(readMultipleCellValue());
+
+
+
+
+
 
 
     }

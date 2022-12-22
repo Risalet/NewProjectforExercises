@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class MultiGoogleSearch implements Runnable {
-    private String searchWord;
+    private final String searchWord;
 
     public MultiGoogleSearch(String searchWord) {
         this.searchWord = searchWord;

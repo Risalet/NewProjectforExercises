@@ -33,11 +33,10 @@ public class CubeCartConfigDemo {
         uiUtility.waitForElementPresent(logoutIcon);
 
         if (logoutIcon.isDisplayed()) {
-            StringBuilder result=new StringBuilder();
-            result.append("Logout button displayed,CubeCart Login Successfully");
+            String result = "Logout button displayed,CubeCart Login Successfully";
             FileUtility fileUtility=new FileUtility();
             fileUtility.fileUtils(ApplicationConfigMethod.readFromPropertiesFile(configFile, "fileFolder"),
-                    ApplicationConfigMethod.readFromPropertiesFile(configFile, "fileName"), result.toString());
+                    ApplicationConfigMethod.readFromPropertiesFile(configFile, "fileName"), result);
             uiUtility.screenShotFile(ApplicationConfigMethod.readFromPropertiesFile(configFile, "fileFolder"),
                     ApplicationConfigMethod.readFromPropertiesFile(configFile, "screenShotFileName"));
         }

@@ -5,8 +5,8 @@ public class StringDemo1 {
         //String literal
         String city = "istanbul";
         //String object
-        String s1 = new String("hello");
-        String s2 = new String("hello");
+        String s1 = "hello";
+        String s2 = "hello";
         //String literal\\\\\\\\\\\\\\\\\\\\\\
         String major1 ="Doctor";
         String major2 ="Doctor";

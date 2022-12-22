@@ -10,9 +10,7 @@ public class CopayTowArray {
 
         int [] arr={105,230,100,4400,300};
         int [] arr1=new int[arr.length];
-        for (int i=0; i<arr.length; i++){
-            arr1[i]=arr[i];
-        }
+        System.arraycopy(arr, 0, arr1, 0, arr.length);
         System.out.println(Arrays.toString(arr1));
     }
 }

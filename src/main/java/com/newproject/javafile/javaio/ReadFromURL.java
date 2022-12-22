@@ -15,7 +15,6 @@ public class ReadFromURL {
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
-        ;
         BufferedReader reader= null;
         try {
             reader = new BufferedReader(new InputStreamReader(url.openStream()));
@@ -25,7 +24,7 @@ public class ReadFromURL {
         String content;
         while (true){
             try {
-                if (!((content= reader.readLine())!=null)) break;
+                if ((content = reader.readLine()) == null) break;
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

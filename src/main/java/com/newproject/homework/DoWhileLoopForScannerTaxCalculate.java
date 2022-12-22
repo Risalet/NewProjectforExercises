@@ -66,7 +66,7 @@ public class DoWhileLoopForScannerTaxCalculate {
 
             else{
                 System.out.println("Your can only select 'Married' or 'Single' Not number or another word");
-                System.out.println(String.format("This is %d times you are trying, you only can try %d time",i,chance-i));
+                System.out.printf("This is %d times you are trying, you only can try %d time%n",i,chance-i);
             }
         }while (i<chance);
     }

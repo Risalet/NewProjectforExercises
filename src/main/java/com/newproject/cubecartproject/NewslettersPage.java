@@ -1,9 +1,10 @@
 package com.newproject.cubecartproject;
 
+import com.newproject.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class NewslettersPage extends TestBase{
+public class NewslettersPage extends TestBase {
 
     public void clickOnCreateNewsletterButton(){
         WebElement createNewsletterButton= driver.findElement(By.linkText("Create Newsletter"));

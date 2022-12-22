@@ -6,15 +6,15 @@ public class NestedClass1 {
     }
     class InnerClassA{
         private int sum(int a, int b){
-            System.out.println(String.format("%d + %d= %d",a,b,a+b));
+            System.out.printf("%d + %d= %d%n",a,b,a+b);
             return a+b;
         }
     }
 
     static class InnerClassB{
         private long multiply(int a, int b){
-            System.out.println(String.format("%d * %d= %d",a,b,a*b));
-            return a*b;
+            System.out.printf("%d * %d= %d%n",a,b,a*b);
+            return (long) a *b;
         }
 
         public static void main(String[] args) {

@@ -6,12 +6,12 @@ public class InstanceOfDemo {
         boolean b =i instanceof Integer;
         System.out.println(b);
 
-        String s1 =new String ("Hello");
+        String s1 = "Hello";
         System.out.println(s1 instanceof Object);
 
         System.out.println("11111111111111111111111111111111111111");
 
-        Number n=1045789878906l;
+        Number n= 1045789878906L;
         System.out.println(n instanceof Integer);
         System.out.println(n instanceof Short);
         System.out.println(n instanceof Byte);

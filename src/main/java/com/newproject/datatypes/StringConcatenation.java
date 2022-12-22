@@ -20,16 +20,16 @@ public class StringConcatenation{
         System.out.println(s1+" "+s2);
         System.out.println(s1.concat(" "+s2));
         //String format
-        System.out.println(String.format("Welcome to %s %s", s1,s2));
+        System.out.printf("Welcome to %s %s%n", s1,s2);
         String country ="Japan";
         String city ="Osaka";
-        System.out.println(String.format("I live in %s %s",country,city));
+        System.out.printf("I live in %s %s%n",country,city);
 
         int  age =20;
-        System.out.println(String.format("My current age is %d",age));
+        System.out.printf("My current age is %d%n",age);
         double d1 =39.245;
         double d2 =3456.5079;
-        System.out.println(String.format("%f + %f =%.4f",d1,d2,d1+d2));
+        System.out.printf("%f + %f =%.4f%n",d1,d2,d1+d2);
 
     }
 

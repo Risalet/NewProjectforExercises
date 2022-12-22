@@ -20,7 +20,7 @@ public class FIndDuplicateElement {
         HashSet<Integer> numbers1=new HashSet<>();
         for (int i=0;i<numbers.size();i++){
             int number=numbers.get(i);
-            if (numbers1.add(number)==false){
+            if (!numbers1.add(number)){
                 System.out.println("Number is duplicated " +number);
             }
         }

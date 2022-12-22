@@ -10,7 +10,7 @@ public class ScannerDemo {
          int number1 = scanner.nextInt();
         System.out.println("Please inter the second number ");
         int number2= scanner.nextInt();
-        System.out.println(String.format("%d + %d = %d ",number1,number2,number1+number2));
+        System.out.printf("%d + %d = %d %n",number1,number2,number1+number2);
     }
 
 }

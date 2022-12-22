@@ -1,11 +1,12 @@
 package com.newproject.cubecartproject;
 
-public class CubecarTestRunner1 extends TestBase {
+import com.newproject.LoginPage;
+import com.newproject.TestBase;
+
+public class CubeCartTestRunner1 extends TestBase {
     public static void main(String[] args) {
         browserSetUp();
-        LoginUser loginUser = new LoginUser("testautomationprod1", "automation123!");
-        LoginPage loginPage = new LoginPage();
-        loginPage.login(loginUser);
+        LoginPage.loginCubeCart();
         DashBordPage dashBordPage = new DashBordPage();
         dashBordPage.clickOnCategoriesLink();
         CategoriesPage categoriesPage = new CategoriesPage();

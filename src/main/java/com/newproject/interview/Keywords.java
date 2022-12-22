@@ -1,7 +1,7 @@
 package com.newproject.interview;
 
 public class Keywords extends parentClass{
-    public void finalize(){
+    protected void finalize(){
     }
 
     //Final Keywords--final variable, method, class

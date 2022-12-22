@@ -22,7 +22,7 @@ public class ObjectGoogleSearch {
         SearchWord searchWord=new SearchWord();
 
         for (int i = 0; i < 3; i++) {
-            driver.findElement(By.name("q")).sendKeys( searchWord.getSearch()[i]+ Keys.ENTER);
+            driver.findElement(By.name("q")).sendKeys( SearchWord.getSearch()[i]+ Keys.ENTER);
             String webElementResult = driver.findElement(By.id("result-stats")).getText();
             System.out.println(webElementResult);
             String theDigits = CharMatcher.digit().retainFrom(webElementResult);

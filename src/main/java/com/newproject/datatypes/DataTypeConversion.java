@@ -5,7 +5,7 @@ public class DataTypeConversion {
         //Widening Casting --convert small to large
         int i1 =100;
         long l1=i1;
-        System.out.println(String.format("i1=%d l1=%d",i1,l1));
+        System.out.printf("i1=%d l1=%d%n",i1,l1);
 
         int i2=200;
         double d1=i2;
@@ -17,15 +17,15 @@ public class DataTypeConversion {
 
         short s1=234;
         int i4=s1;
-        System.out.println(String.format("s1=%d i4=%d" ,s1,i4 ));
+        System.out.printf("s1=%d i4=%d%n",s1,i4 );
 
         //Narrowing casting
-        long l2=878678675l;
+        long l2= 878678675L;
         int i5=(int)l2;
-        System.out.println(String.format("i5=%d ",i5));
+        System.out.printf("i5=%d %n",i5);
 
         double d2 =12.456;
         int i6=(int)d2;
-        System.out.println(String.format("i6=%d", i6));
+        System.out.printf("i6=%d%n", i6);
     }
 }

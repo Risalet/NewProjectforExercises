@@ -18,11 +18,11 @@ public class StudentPrint {
         ArrayList <Student> students=new ArrayList<>();
         students.add(student1);
         for (Student eachStudent: students){
-            System.out.println(String.format("StudentId : %d  First Name : %s  Last Name : %s  E-male : %s  Address : %s  Major : %s  Age : %d  Weight : %d  Gender : %s  Height : %d",
+            System.out.printf("StudentId : %d  First Name : %s  Last Name : %s  E-male : %s  Address : %s  Major : %s  Age : %d  Weight : %d  Gender : %s  Height : %d%n",
                     eachStudent.getId(),eachStudent.getFirstName(),eachStudent.getLastName(),
                     eachStudent.getEmail(),eachStudent.getAddress(),eachStudent.getMajor(),
                     eachStudent.getAge(),eachStudent.getWeight(),eachStudent.getGender(),
-                    eachStudent.getHeight()));
+                    eachStudent.getHeight());
         }
     }
 }

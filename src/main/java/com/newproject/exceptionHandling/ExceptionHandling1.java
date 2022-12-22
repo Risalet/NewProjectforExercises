@@ -1,6 +1,6 @@
 package com.newproject.exceptionHandling;
 
-public class exceptionHandling1 {
+public class ExceptionHandling1 {
     public static void main(String[] args) {
         try {
             System.out.println(1 / 0);

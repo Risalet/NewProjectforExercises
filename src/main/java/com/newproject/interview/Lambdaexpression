@@ -1,0 +1,7 @@
+How to bring lambda expression in java
+Predefined functional interface in java;
+--> Predicate<T> --test(); ture and false
+--> Functional<T,T> --apply();
+--> consumer --accept();
+--> supplier --get();
+ Stream API;

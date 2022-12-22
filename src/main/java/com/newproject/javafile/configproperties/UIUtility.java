@@ -7,16 +7,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 
 public class UIUtility {
-    private int timeOut=Integer.parseInt
+    private final int timeOut=Integer.parseInt
             (ApplicationConfigMethod.readFromPropertiesFile("config.properties","timeout"));
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public UIUtility(WebDriver driver) {
         this.driver = driver;
@@ -38,6 +37,5 @@ public class UIUtility {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

@@ -18,10 +18,9 @@ public class CSVFileWriter {
     }
 
     public static void main(String[] args) {
-        StringBuilder content=new StringBuilder();
-        content.append("TestID,TestModule,TestType,TestStatus").append("\n");
-        content.append("1,Customer,Regression,Passed").append("\n");
-        content.append("2,Category,Smoke Test,Passed");
-        CSVFileWriter.writeCSVFile("CSVFile","CSVFile-Test-Date",content.toString());
+        String content = "TestID,TestModule,TestType,TestStatus" + "\n" +
+                "1,Customer,Regression,Passed" + "\n" +
+                "2,Category,Smoke Test,Passed";
+        CSVFileWriter.writeCSVFile("CSVFile","CSVFile-Test-Date", content);
     }
 }

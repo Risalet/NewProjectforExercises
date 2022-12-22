@@ -21,7 +21,7 @@ public class ApplicationConfigMethod {
             throw new RuntimeException(e);
         }
         value=properties.getProperty(key);
-        System.out.println(String.format("%s=%s",key,value));
+        System.out.printf("%s=%s%n",key,value);
         return value;
     }
 

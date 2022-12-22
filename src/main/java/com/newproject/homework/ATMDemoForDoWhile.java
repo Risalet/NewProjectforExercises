@@ -29,7 +29,7 @@ public class ATMDemoForDoWhile {
             }
             else {
                 System.out.println("Your pin number in incorrect(or invalid) please try again");
-                System.out.println(String.format("This is %d times you are trying, you only can try %d time",i,chance-i));
+                System.out.printf("This is %d times you are trying, you only can try %d time%n",i,chance-i);
             }
         }while (i<chance);
 

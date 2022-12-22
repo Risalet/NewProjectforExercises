@@ -1,4 +1,4 @@
-package com.newproject.cubecartproject;
+package com.newproject;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.PageLoadStrategy;
@@ -17,7 +17,7 @@ import java.util.Random;
 public class TestBase {
     public static WebDriver driver;
     public static String browserName="chrome";
-    public static String  url="http://cubecart.unitedcoderschool.com/ecommerce/admin_w4vqap.php";
+    public static String  url="http://cubecartqa1.unitedcoderschool.com/admin_xrmx7f.php";
 
     public static void browserSetUp(){
         if (driver == null) {
@@ -49,7 +49,7 @@ public class TestBase {
 
     public static void sleep(int seconds){
         try {
-            Thread.sleep(seconds*1000);
+            Thread.sleep(seconds* 1000L);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

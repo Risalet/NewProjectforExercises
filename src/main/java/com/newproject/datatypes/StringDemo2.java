@@ -29,7 +29,7 @@ public class StringDemo2 {
         System.out.println(date);
         String status = "All Test Passed ";
         System.out.println(status.indexOf("T"));
-        status =status.substring(0);
+        status = status;
         System.out.println(status);
 
 

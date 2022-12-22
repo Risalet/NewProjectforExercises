@@ -1,0 +1,6 @@
+1:StringBuffer and StringBuilder
+2:Synchronization
+3 Multi-Thread
+4:BufferedReader Vs FileReader ()--test use fileReader
+   Api use bufferedReader because file is lage
+5: Json --ObjectMapper have method

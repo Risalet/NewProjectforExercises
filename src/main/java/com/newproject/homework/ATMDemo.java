@@ -20,7 +20,7 @@ public class ATMDemo {
 
                 if (menu.equalsIgnoreCase("withdraw")&& amount <=balance){
                     System.out.println("Preparing your cash, Please check you money");
-                    System.out.println(String.format("Your current balance was %d, balance-amount"));
+                    System.out.println("Your current balance was %d, balance-amount");
                 }
                 else{
                     System.out.println("Withdraw amount cant greater than balance");

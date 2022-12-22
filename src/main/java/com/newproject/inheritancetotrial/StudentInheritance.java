@@ -1,8 +1,8 @@
 package com.newproject.inheritancetotrial;
 
 public class StudentInheritance extends Student{
-    private String major;
-    private String email;
+    private final String major;
+    private final String email;
 
 
     public StudentInheritance(String firstName, String lastName, int id, String major, String email) {

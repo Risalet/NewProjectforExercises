@@ -23,7 +23,7 @@ public class FindDuplicateElement {
         Set<String> fruits1=new HashSet<>();
         for (int i=0; i<fruits.size(); i++){
             String fruitsName=fruits.get(i);
-            if (fruits1.add(fruitsName)==false){
+            if (!fruits1.add(fruitsName)){
                 System.out.println("Duplicate Fruits is " +  fruitsName+" ");
             }
         }

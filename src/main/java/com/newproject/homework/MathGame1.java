@@ -12,7 +12,7 @@ public class MathGame1 {
         System.out.println("あなたの名前は : " + name);
         System.out.println("暗算何問やりますか ");
         int n=scanner.nextInt();
-        System.out.println(String.format("私は %d 問　やります",n));
+        System.out.printf("私は %d 問　やります%n",n);
         System.out.println("暗算をスタートします");
         int point =0;
         for (int i=0;i<n;i++){

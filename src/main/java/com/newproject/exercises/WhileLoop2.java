@@ -18,7 +18,7 @@ public class WhileLoop2 {
                 oddNumberCounts++;
             }
             else
-                break;;
+                break;
         }
         System.out.println("How many even numbers have : " + evenNumberCounts);
         System.out.println("How many odd numbers have : " + oddNumberCounts);

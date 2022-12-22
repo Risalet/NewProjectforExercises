@@ -31,7 +31,7 @@ public class NestedLoopDemo {
 
         for(int r=1; r<=9;r++){
             for (int c=1; c<=r ;c++){
-                System.out.print(String.format("%d * %d =%d\t",r,c,r*c));
+                System.out.printf("%d * %d =%d\t",r,c,r*c);
             }
             System.out.println();
         }

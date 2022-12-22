@@ -19,17 +19,17 @@ public class ObjectGoogleSearch1 {
         driver.manage().window().maximize();
         driver.get("https://www.google.com");
         SearchWord searchWord1=new SearchWord();
-        searchWord1.setWord("Java");
+        SearchWord.setWord("Java");
         SearchWord searchWord2=new SearchWord();
-        searchWord2.setWord("C#");
+        SearchWord.setWord("C#");
         SearchWord searchWord3=new SearchWord();
-        searchWord3.setWord("C++");
+        SearchWord.setWord("C++");
         ArrayList<SearchWord> wordList=new ArrayList<>();
         wordList.add(searchWord1);wordList.add(searchWord2);wordList.add(searchWord3);
 
 
         for (SearchWord word:wordList) {
-            driver.findElement(By.name("q")).sendKeys( word.getWord()+ Keys.ENTER);
+            driver.findElement(By.name("q")).sendKeys( SearchWord.getWord()+ Keys.ENTER);
             String webElementResult = driver.findElement(By.id("result-stats")).getText();
             System.out.println(webElementResult);
             String theDigits = CharMatcher.digit().retainFrom(webElementResult);

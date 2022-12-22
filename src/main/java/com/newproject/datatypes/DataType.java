@@ -15,7 +15,7 @@ public class DataType {
         System.out.println("My age is :" +age);
         System.out.println("Addition of b1 ,b2 and s1 :"+ addition);
 
-        long depositMoney= 3986473836483683l;
+        long depositMoney= 3986473836483683L;
         System.out.println(depositMoney);
 
         //decimal digits-- Float, double ;
