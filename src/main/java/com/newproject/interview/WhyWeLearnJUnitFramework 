@@ -1,0 +1,13 @@
+Why we learn JUnit framework
+SDLC-->V-module--Unit Test--Integration Test--Application code deploy to QA server
+
+Test Fixtures in JUnit
+@BeforeClass--runs only once in a test class
+@Before
+@Test
+@AfterClass
+@After
+@Rule
+@Ignore
+
+

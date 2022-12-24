@@ -1,0 +1,15 @@
+CI--Process
+1---> Each engineer should be have jira tickets(Time lead or scrum master)
+2---> Each engineer should be create branch on jira,on intelliJ IDE,on bitbucket(Not recommended)
+3---> Each engineer should be choose branch type--Remote branch(custom,feature,hotfix,bugfix,release)
+4---> On IntelliJ IDE or Eclipse, we update project to display remote branch
+5---> Check out remote branch as local branch
+5---> Complete our code--working directory--local git folder
+6---> Commit our code--Save local git folder
+7---> Push to remote branch
+8---> Create pull request --src=remote branch  destination=remote master
+9---> After PR approve, code merge into remote master(origin)
+10--> Check out local master, update project (git pull)
+
+Terminal
+git diff: The difference between local master and remote master
