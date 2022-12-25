@@ -1,8 +1,20 @@
 package com.unitedcoder.junitframework;
 
+import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class JUnitTestDemo1 {
+
+    @BeforeClass
+    public static void setUp(){
+        System.out.println(" Before ");
+    }
+
+    @Before
+    public  void go(){
+        System.out.println("GO<GO<GO");
+    }
 
     @Test
     public void addCustomer(){

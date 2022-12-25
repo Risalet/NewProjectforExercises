@@ -2,14 +2,16 @@ package com.newproject.javafile.exceltutorial.cubecartexceltutorial;
 
 import com.newproject.TestBase;
 import com.newproject.cubecartproject.DashBordPage;
+import dev.failsafe.internal.util.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class AddCustomerPage extends TestBase {
 
+    static DashBordPage dashBordPage=new DashBordPage();
+
     public static void fillOutAddCustomerDetails(CustomersInfo customersInfo){
-        DashBordPage dashBordPage=new DashBordPage();
         dashBordPage.clickOnCustomerListLink();
         dashBordPage.clickOnAddCustomerButton();
 
@@ -53,6 +55,24 @@ public class AddCustomerPage extends TestBase {
         for (CustomersInfo customer: customers) {
             fillOutAddCustomerDetails(customer);
         }
+    }
+
+    public static boolean  viewCustomers(){
+        dashBordPage.clickOnCustomerListLink();
+        List<WebElement> customerList= driver.findElements(By.xpath("//*[@id='customer-list']/table/tbody/tr"));
+        System.out.println(customerList.size());
+        if (customerList.size()>0){
+            System.out.println("Customer view is successful");
+            return true;
+       }
+        else {
+            System.out.println("Customer view is failed");
+            return  false;
+        }
+
+
+
+
     }
 
 }

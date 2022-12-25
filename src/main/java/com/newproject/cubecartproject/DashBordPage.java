@@ -5,12 +5,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class DashBordPage extends TestBase {
+
     public void logout() {
         WebElement logoutIcon = driver.findElement(By.cssSelector("i.fa.fa-sign-out"));
         waitForElementVisibility(logoutIcon);
         logoutIcon.click();
     }
-
 
     public void clickOnCategoriesLink(){
         WebElement categoriesLink = driver.findElement(By.id("nav_categories"));
@@ -34,5 +34,11 @@ public class DashBordPage extends TestBase {
         WebElement addCustomerButton= driver.findElement(By.xpath("//*[@id=\"tab_control\"]/div[3]/a"));
         waitForElementVisibility(addCustomerButton);
         addCustomerButton.click();
+    }
+
+    public void clickOnProductsLink(){
+        WebElement productsLink = driver.findElement(By.id("nav_products"));
+        waitForElementVisibility(productsLink);
+        productsLink.click();
     }
 }

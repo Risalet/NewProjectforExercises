@@ -2,12 +2,13 @@ Why we learn JUnit framework
 SDLC-->V-module--Unit Test--Integration Test--Application code deploy to QA server
 
 Test Fixtures in JUnit
-@BeforeClass--runs only once in a test class
-@Before
-@Test
-@AfterClass
-@After
-@Rule
-@Ignore
+@BeforeClass    --> Runs only once in a test class--must static
+@Before         --> Runs before ever test--no static
+@Test           --> Actual test logical
+@AfterClass     --> Runs only once in a test class--must static
+@After          --> Runs after ever test--no static
+@Rule           --> For example(public TestName testName=new TestName();) testName will be change global value
+@Ignore         --> Refuse to run test add ignore annotation
+@FixMethodOrder --> Can give order for test
 
 
