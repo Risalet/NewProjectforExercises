@@ -12,4 +12,5 @@ CI--Process
 10--> Check out local master, update project (git pull)
 
 Terminal
-git diff: The difference between local master and remote master
+git diff: The difference between local master and remote master;
+git merge master: akida kalgan  branch de turup git merge master;
