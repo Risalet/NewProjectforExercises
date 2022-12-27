@@ -17,7 +17,7 @@ import java.util.Random;
 public class TestBase {
     public static WebDriver driver;
     public static String browserName="chrome";
-    public static String  url="http://cubecartqa1.unitedcoderschool.com/admin_xrmx7f.php";
+    public static String  url="http://cubecartuat.unitedcoderschool.com/admin_wehelc.php";
 
     public static void browserSetUp(){
         if (driver == null) {
